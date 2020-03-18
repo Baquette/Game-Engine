@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sceneManager>
+
+	<backgroundColor>
+		<r>0.0</r>
+		<g>0.0</g>
+		<b>0.0</b>
+	</backgroundColor>
+
+	
+	
+	<cameras>
+		<camera id="1">
+			<position>
+				<x>0</x>
+				<y>0</y>
+				<z>1</z>
+			</position>
+			<target>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</target>
+			<up>
+				<x>0</x>
+				<y>1</y>
+				<z>0</z>
+			</up>
+			<translationSpeed>10</translationSpeed>
+			<rotationSpeed>0.3</rotationSpeed>
+			<fov>45</fov>
+			<near>0.2</near>
+			<far>10000</far>
+		</camera>
+		<!-- eventual si alte cameras -->
+	</cameras>
+	<activeCamera>1</activeCamera>
+
+	
+	<objects>
+<object id="13">
+			<type>skybox</type>
+			<model>3</model>
+			<color>
+				<r>1.0</r>
+				<g>0.0</g>
+				<b>0.0</b>
+			</color>
+		 	<scale>
+				<x>1000.0</x>
+				<y>1000.0</y>
+				<z>1000.0</z>
+			</scale>
+			<rotation>
+				<x>0.0</x>
+				<y>0.0</y>
+				<z>0.0</z>
+			</rotation>
+			<position>
+				<x>0</x>
+				<y>0</y>
+				<z>1</z>
+			</position>
+
+			<shader>1</shader>
+			<textures>
+				<texture id="1"/>
+			</textures>
+
+		</object>	
+
+			<object id="8">
+				<Ycells>20</Ycells>
+				<Xcells>20</Xcells>
+				<cellScale>25</cellScale>
+				<offsetY>-2</offsetY>	
+				<model>generated</model>
+				<shader>8</shader>
+				<type>terrain</type>
+				<wired/>
+				<blend>false</blend>
+				<name>Teren</name>
+				<high>
+					<r>3.0</r>
+					<g>2.0</g>
+					<b>-1.0</b>
+				</high>
+				<color>
+					<r>1.0</r>
+					<g>1.0</g>
+					<b>1.0</b>
+				</color>
+				<textures>
+				<texture id="14"/>
+					<texture id="15"/>
+					<texture id="16"/>
+					<texture id="17"/>
+	
+				<!--adaugati texturile-->
+				</textures>
+				<position>
+					<x>0</x>
+					<y>-2</y>
+					<z>1</z>
+				</position>
+				<rotation>
+					<x>0.0</x>
+					<y>0.0</y>
+					<z>0.0</z>
+				</rotation>
+				<scale>
+					<x>1.0</x>
+			  		<y>1.0</y>
+					<z>1.0</z>
+				</scale>
+				<lights>
+					<light>1</light>
+				</lights>
+		</object>
+
+			</objects>
+	
+
+	<ambientalLight>
+		<color>
+			<r>1.0</r>
+			<g>1.0</g>
+			<b>1.0</b>
+		</color>
+		<ratio>0.2</ratio>
+	</ambientalLight>
+	
+	<lights>
+		<light id="1">
+			<associatedObject>2</associatedObject>
+			<diffuseColor>
+				<r>1.0</r>
+				<g>1.0</g>
+				<b>1.0</b>
+			</diffuseColor>
+			<specularColor>
+				<r>1.0</r>
+				<g>1.0</g>
+				<b>1.0</b>
+			</specularColor>
+			<type>point</type>
+		</light>
+	</lights>
+	
+	<debugSettings>
+		<objectAxes>
+			<OXColor>
+				<r>1.0</r>
+				<g>0.0</g>
+				<b>0.0</b>
+			</OXColor>
+			<OYColor>
+				<r>0.0</r>
+				<g>1.0</g>
+				<b>0.0</b>
+			</OYColor>
+			<OZColor>
+				<r>0.0</r>
+				<g>0.0</g>
+				<b>1.0</b>
+			</OZColor>
+		</objectAxes>
+		<camAxes>
+			<OXColor>
+				<r>1.0</r>
+				<g>1.0</g>
+				<b>0.0</b>
+			</OXColor>
+			<OYColor>
+				<r>0.0</r>
+				<g>1.0</g>
+				<b>1.0</b>
+			</OYColor>
+			<OZColor>
+				<r>1.0</r>
+				<g>0.0</g>
+				<b>1.0</b>
+			</OZColor>
+		</camAxes>
+	</debugSettings>
+	
+</sceneManager>
